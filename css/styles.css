@@ -802,23 +802,34 @@ input[type='checkbox'] {
 }
 
 
+.intro {
+	padding-top: 3rem;
+	padding-bottom: 0.5rem;
+	text-align: center;
+	background-color: #fff;
+}
+
+.intro h2{
+	color: #18586c;
+}
+
 /************************/
-/*     06. Services     */
+/*     06. Benefits     */
 /************************/
 .cards-1 {
-	padding-top: 4rem;
+	padding-top: 3rem;
 	padding-bottom: 1.625rem;
 	text-align: center;
-	background-color: #18586c;
+	background-color: #f7fcfd;
 }
 
 .cards-1 h2 {
 	margin-bottom: 1rem;
-	color: #F8F8F8;
+	color: #18586c;
 }
 
 .cards-1 p {
-	color: rgb(162, 189, 196);
+	/* color: rgb(162, 189, 196); */
 	text-align: center;
 }
 
@@ -871,7 +882,7 @@ input[type='checkbox'] {
 }
 
 .basic-1 h1{
-	color: #D67A3D;
+	color: #d67A3D;
 }
 
 /*************************/
@@ -2204,3 +2215,37 @@ a:hover.back-to-top {
 	/* end of extra pages */
 }
 /* end of min-width width 1200px */
+
+/* ****ARQ COMPASS**** */
+#welcome {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: rgb(0, 108, 133);
+	background: linear-gradient(
+	  90deg,
+	  rgba(0, 108, 133, 1) 0%,
+	  rgba(137, 170, 180, 1) 100%
+	);
+  }
+  
+  #welcome p {
+	color: white;
+	font-family: "Questrial", sans-serif;
+  }
+  .headline-2 {
+	font-family: "Muli", sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+  }
+  
+  .headline-2 p {
+	margin: 0px;
+	padding: 0px;
+  }
+  a.anchor {
+	display: block;
+	position: relative;
+	top: -75px;
+	visibility: hidden;
+  }
